@@ -1,0 +1,109 @@
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
+# ==========================================
+# FastAPI / Backend
+# ==========================================
+
+backend/.env
+backend/.env.*
+!.env.example
+
+# Logs
+*.log
+
+
+# ==========================================
+# Machine Learning / Jupyter
+# ==========================================
+
+.ipynb_checkpoints/
+
+# Jupyter temporary files
+*.ipynb_checkpoints
+
+# ML temporary/cache files
+ML/__pycache__/
+
+
+# ==========================================
+# Node.js / Next.js
+# ==========================================
+
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Next.js cache
+frontend/.vercel/
+
+# Environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+
+# ==========================================
+# Build / Cache
+# ==========================================
+
+.cache/
+dist/
+build/
+
+
+# ==========================================
+# OS / Editor
+# ==========================================
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+# VS Code temporary files
+*.code-workspace
+
+
+# ==========================================
+# Environment / Secrets
+# ==========================================
+
+.env
+.env.local
+.env.*.local
+
+# Certificates / private keys
+*.pem
+*.key
+
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
