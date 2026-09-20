@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const API_URL = "http://127.0.0.1:8000/predict";
+const API_URL = "https://fraudguard-ai-production.up.railway.app/predict";
 
 export default function Predict() {
   const [formData, setFormData] = useState({
